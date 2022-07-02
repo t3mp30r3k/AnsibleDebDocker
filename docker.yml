@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: debian
   become: true
   become_method: sudo
   vars:
